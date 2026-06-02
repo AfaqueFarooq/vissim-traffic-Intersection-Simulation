@@ -15,7 +15,7 @@ This project is a microscopic traffic simulation model of a real signalized inte
 
 ## Intersection Analysis
 
-![Satellite View](screenshots/01_satellite_overview)
+![Satellite View](screenshots/01_satellite_overview.png) 
 
 The intersection was carefully analyzed from satellite imagery to extract lane counts, tram track positions, bicycle crossings and signal pole locations.
 
