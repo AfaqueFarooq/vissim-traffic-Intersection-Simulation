@@ -1,7 +1,7 @@
 # Traffic Intersection Simulation — Poznań, Poland
 ### Zbąszyńska × Bukowska | Intersection ID 8 | PTV VISSIM
 
-![Intersection Satellite Overview](/screenshots/01_satellite_overview.png)
+![Intersection Satellite Overview](screenshots/01_satellite_overview.png)
 
 ---
 
@@ -15,7 +15,7 @@ This project is a microscopic traffic simulation model of a real signalized inte
 
 ## Intersection Analysis
 
-![Satellite View](screenshots/01_satellite_overview.png)
+![Satellite View](screenshots/01_satellite_overview)
 
 The intersection was carefully analyzed from satellite imagery to extract lane counts, tram track positions, bicycle crossings and signal pole locations.
 
