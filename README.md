@@ -1,7 +1,7 @@
 # Traffic Intersection Simulation — Poznań, Poland
 ### Zbąszyńska × Bukowska | Intersection ID 8 | PTV VISSIM
 
-[Intersection Satellite Overview](screenshots/01_satellite_overview.png)
+![[Intersection Satellite Overview] (screenshots/01_satellite_overview.png)
 
 ---
 
