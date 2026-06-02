@@ -9,38 +9,11 @@
 
 This project is a microscopic traffic simulation model of a real signalized intersection in Poznań, Poland — the crossing of **Zbąszyńska** and **Bukowska** streets — built as part of the *Traffic and Transportation Modelling 2026* course at **INSA Hauts-de-France**.
 
-### Assignment Description
-> *"Please create a model of the assigned intersection. Please design your own traffic signal program to achieve the best possible traffic flow at the intersection. In the evaluation, focus is placed on the correctness of the solutions used, as well as the accuracy and thoroughness of the representation of the actual layout. Please use data (traffic volumes — 10% of values from schemes) according to intersection ID and attached files. In terms of public transport, check line routes and timetables."*
-
 **Coordinates:** `52.409616, 16.888585` — Poznań, Poland  
-**Intersection ID:** 8  
 **Simulation Tool:** PTV VISSIM
 
----
 
-## 📁 Repository Structure
-
-```
-traffic-simulation-poznan/
-│
-├── README.md
-│
-├── screenshots/
-│   ├── 01_satellite_overview.png       ← Real satellite view of intersection
-│   ├── 03_links_wireframe.png          ← All road links drawn in VISSIM
-│   ├── 05_conflict_areas.png           ← Conflict areas with priorities
-│   ├── 06_vehicle_inputs.png           ← Vehicle input volumes in VISSIM
-│   └── 09_simulation_running.png       ← Simulation running with vehicles
-│
-├── data/
-│   ├── intersection_id8_original.jpg   ← Original traffic flow diagram
-│   └── traffic_calculations.md         ← Full 10% calculations and routing
-│
-```
-
----
-
-## 🗺️ Intersection Analysis
+## Intersection Analysis
 
 ![Satellite View](screenshots/01_satellite_overview.png)
 
@@ -55,17 +28,19 @@ The intersection was carefully analyzed from satellite imagery to extract lane c
 | **East** | 2 car | 2 car |
 
 ### Special Features
-- ✅ Dedicated tram corridor running N-S through center of road
-- ✅ Red bicycle crossings at all 4 corners
-- ✅ Pedestrian zebra crossings on all 4 arms
-- ✅ Asymmetric West arm (2 lanes in, 1 lane out)
-- ✅ Traffic signal poles at all corners
+- Dedicated tram corridor running N-S through center of road
+- Red bicycle crossings at all 4 corners
+- Pedestrian zebra crossings on all 4 arms
+- Asymmetric West arm (2 lanes in, 1 lane out)
+- Traffic signal poles at all corners
 
 ---
 
-## 🛣️ VISSIM Network Model
+## VISSIM Network Model
 
-![Links Wireframe](screenshots/03_links_wireframe.png)
+![Links Overview](screenshots/02_links_overview.png)
+
+![Links Overview](screenshots/03_links_wireframe.png)
 
 ### Links Created
 - **8 car links** — entering and exiting on all 4 arms
@@ -74,7 +49,7 @@ The intersection was carefully analyzed from satellite imagery to extract lane c
 - **1 tram connector** — straight through the intersection
 
 ### Conflict Areas
-![Conflict Areas](screenshots/05_conflict_areas.png)
+![Conflict Areas](screenshots/04_conflict_areas.png)
 
 Priority rules applied at all conflict points:
 
@@ -145,7 +120,7 @@ SEC:  0              45  48              73  76       87  90
 
 ## 🎬 Simulation
 
-![Simulation Running](screenshots/09_simulation_running.png)
+![Simulation Running](screenshots/06_simulation_running.png)
 
 ---
 
